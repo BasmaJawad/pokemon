@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<table>
+
+    <!-- th forbinder koden med Model i vores controller-->
+    <tr th:each="pokemoncard: ${pokemonCards}">  <!-- pokemoncard er attribut vi selv har fundet på, men referer til pokemonCards-->
+        <td th:text="${pokemoncard.name}" />  <!-- name er kolonne i vores database-->
+        <td th:text="${pokemoncard.speed}" />
+        <td th:text="${pokemoncard.pokedex_number}" />
+    </tr>
+
+
+    for (String str: Strinarray)
+
+
+</table>
+
+</body>
+</html>
